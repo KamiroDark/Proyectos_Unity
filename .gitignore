@@ -1,0 +1,33 @@
+# Archivos y carpetas que Unity genera automáticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Archivos específicos de Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos de caché y configuración local
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.opendb.meta
+*.VC.db.meta
+
+# Archivos de Git
+.DS_Store
+Thumbs.db
