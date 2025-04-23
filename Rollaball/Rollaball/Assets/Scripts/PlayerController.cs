@@ -31,6 +31,18 @@ public class PlayerController : MonoBehaviour
 
     }//Funciones (Funtion Body) C#
 
+    /*private void OnCollisionEnter(Collision collision)
+    {
+   if (collision.gameObject.CompareTag("Enemy"))
+   {
+       // Destroy the current object
+       Destroy(gameObject); 
+       // Update the winText to display "You Lose!"
+       winTextObject.gameObject.SetActive(true);
+       winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
+   }
+    }*/
+
     void SetCountText() 
    {
        countText.text =  "Count: " + count.ToString();
