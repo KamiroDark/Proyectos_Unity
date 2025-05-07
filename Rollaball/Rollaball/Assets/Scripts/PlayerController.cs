@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     }//Funciones (Funtion Body) C#
 
-    /*private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
    if (collision.gameObject.CompareTag("Enemy"))
    {
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
        winTextObject.gameObject.SetActive(true);
        winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
    }
-    }*/
+    }
 
     void SetCountText() 
    {
